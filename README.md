@@ -1,5 +1,5 @@
 <h1 align="center">Hola 👋, Soy Martín Embeita</h1>
-<h3 align="center">Un programador principiante y estudiante de Coderhouse</h3>
+<h3 align="center">Un programador en crecimiento</h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
