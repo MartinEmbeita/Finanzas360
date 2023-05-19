@@ -1,10 +1,3 @@
-/**
- * Template Name: Kelly
- * Updated: Mar 10 2023 with Bootstrap v5.2.3
- * Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
- * Author: BootstrapMade.com
- * License: https://bootstrapmade.com/license/
- */
 (function () {
   'use strict';
 
@@ -258,3 +251,42 @@
    */
   new PureCounter();
 })();
+
+// Obtener referencias a los enlaces o botones
+const loginLink = document.getElementById('login-link');
+const signupLink = document.getElementById('signup-link');
+
+// Agregar eventos de clic
+loginLink.addEventListener('click', handleLogin);
+signupLink.addEventListener('click', handleSignup);
+
+// Función para manejar el clic en "Log In"
+function handleLogin(event) {
+  event.preventDefault();
+  // Aquí puedes redirigir al usuario a la página de inicio de sesión o mostrar un formulario de inicio de sesión en un modal.
+}
+
+// Función para manejar el clic en "Sign Up"
+function handleSignup(event) {
+  event.preventDefault();
+  // Aquí puedes redirigir al usuario a la página de registro o mostrar un formulario de registro en un modal.
+}
+
+// Obtenemos referencias a los elementos HTML
+const signupButton = document.getElementById('signup-button');
+const loginButton = document.getElementById('login-button');
+const headerButtons = document.getElementById('header-buttons');
+const userGreeting = document.getElementById('user-greeting');
+
+// Simulamos el registro y capturamos el nombre de usuario
+function simulateRegistration() {
+  const username = 'John'; // Aquí reemplaza 'John' por el nombre de usuario real
+
+  // Ocultamos los botones y mostramos el saludo al usuario registrado
+  headerButtons.style.display = 'none';
+  userGreeting.textContent = 'Hola ' + username + '!';
+  userGreeting.classList.remove('hidden');
+}
+
+// Llamamos a la función simulateRegistration después de un cierto evento, como un clic en el botón de registro o un proceso de registro exitoso.
+simulateRegistration();
