@@ -10,7 +10,7 @@ body {
 #page-content {
   min-height: calc(100vh - 100px); /* Ajusta el valor según tu preferencia */
   padding-bottom: 60px; /* Ajusta el valor si el footer tiene una altura diferente */
-  background-image: url('/assets/img/fondo.jpg');
+  background-image: url('assets/img/fondo.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
